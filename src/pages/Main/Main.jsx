@@ -19,12 +19,12 @@ export default function Main() {
             </main>
 
             <section>
-                <div className="bg-custom-white">
-                    <h2>Entre em contato</h2>
-                    <input type="text" placeholder="Nome" />
-                    <input type="text" placeholder="Email" />
-                    <input type="text" placeholder="Assunto da mensagem" />
-                    <button>ENTRAR EM CONTATO</button>
+                <div className="bg-custom-white py-20 text-center flex flex-col items-center">
+                    <h2 className="font-semibold text-3xl mb-12">Entre em contato</h2>
+                    <input className="w-96 px-6 py-5 mb-6 rounded" type="text" placeholder="Nome" />
+                    <input className="w-96 px-6 py-5 mb-6 rounded" type="text" placeholder="Email" />
+                    <input className="w-96 pl-6 py-5 mb-10 rounded" type="text" placeholder="Assunto da mensagem" />
+                    <button className="bg-custom-purple w-96 py-4 text-white rounded placeholder: text-base font-bold">ENTRAR EM CONTATO</button>
                 </div>
             </section>
         </>
