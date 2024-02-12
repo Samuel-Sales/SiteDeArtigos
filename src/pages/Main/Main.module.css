@@ -1,0 +1,11 @@
+.container__cards {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 430px);
+    gap: 20px;
+}
